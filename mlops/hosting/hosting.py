@@ -1,6 +1,5 @@
 from huggingface_hub import HfApi
 import os
-from mlops.config import HF_REPO_ID
 
 
 api = HfApi(token=os.getenv("HF_TOKEN"))
